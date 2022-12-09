@@ -35,6 +35,9 @@ fun main(args: Array<String>) {
 //    nullable ? -> Kotlin is null safe language that's why require to explicitly define null values
     var str: String? = null
 
+//    var nullableVariable : CustomClass? = CustomClass()
+//    we can add a ? after the data type of that property which declares that variable as a nullable property
+
 //    Switch statements (or when else statement)
 //    It doesn't require break and works in java lambda way, also return value
     val n12 = when (name) {
